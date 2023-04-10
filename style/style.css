@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    z-index: 1;
+    position: relative;
+}
+
+#conataier-content {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    /* text-align: center; */
+    padding-top: 50px;
+}
+
+.foto-perfil {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #4cbeff99;
+}
+
+.container-links {
+    width: 90%;
+}
+
+.container-links ul,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFEF44;
+    display: block;
+    box-sizing: content-box;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.links {
+    margin: 10px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #4cbeff99;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.icon-redeSocial {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+.rodape{
+    z-index: 1;
+    position: relative;
+    margin-top:35%;
+    display: flex;
+    justify-content: center;    
+    color: #FFEF44;
+
+}
